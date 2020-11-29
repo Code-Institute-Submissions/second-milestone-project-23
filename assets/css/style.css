@@ -100,7 +100,6 @@ header {
     padding: 10px 25px;
     color: #fff;
     border-radius: 25px;
-
 }
 
 .btn:hover {
@@ -120,6 +119,10 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+.inline-block a {
+    color: #fff;
 }
 
 .social-links {
@@ -142,10 +145,39 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-    background: #ffff00;
+i.fa-facebook-f:hover {
+    background: #3b5998;
+}
+
+i.fa-instagram:hover {
+    background: #c32aa3;
+}
+
+i.fa-twitter:hover {
+    background: #00acee;
+}
+
+i.fa-youtube:hover {
+    background: #c4302b;
 }
 
 #footer-details {
     padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 0.7rem;
+}
+
+.btn-footer {
+    display: inline-block;
+    background: #8f8f8f;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 15px;
 }

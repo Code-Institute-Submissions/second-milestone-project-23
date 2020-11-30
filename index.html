@@ -15,15 +15,21 @@
 <body>
     <header>
         <video src="assets/media/test1.mp4" class="vid-bg" autoplay loop muted></video>
-        <div class="nav-area">
+         <nav class="navbar">
             <div class="logo">Movement</div>
-            <ul class="menu-area">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Mission Trips</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Mission Trips</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="banner-text">
             <h2>Ready for an adventure?</h2>
             <p>Why not join us for a mission trip. Contact us to find out more!</p>
@@ -59,13 +65,13 @@
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 col-md-6 col-lg-4">
                 <h5>Get in touch!</h5>
                 <p class="inline-block">
                     <i class="far fa-envelope"></i> Email: <a href="#">blabla@gmail.com</a>
                 </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 col-md-6 col-lg-4">
                 <h5>Follow Us!</h5>
                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
@@ -82,7 +88,7 @@
                         </li>
                     </ul>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6 col-md-6 col-lg-4">
                 <h5>Subscribe to our newsletter!</h5>
                 <div>
                     <form>
@@ -96,7 +102,7 @@
         </div>
     
     </footer>
-        
+<script src="assets/js/script.js"></script>       
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

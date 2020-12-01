@@ -193,6 +193,11 @@ header {
     padding: 3rem 3rem;
 }
 
+.cuba-pic {
+    padding: 1rem;
+    opacity: 100%;
+}
+
 /*-------------------------------------Media queries */
 
 @media (max-width: 768px) {

@@ -190,12 +190,24 @@ header {
 
 .info-text {
     text-align: left;
-    padding: 3rem 3rem;
+    padding: 2rem 3rem;
 }
 
-.cuba-pic {
-    padding: 1rem;
-    opacity: 100%;
+.container {
+    max-width: initial;
+    margin: auto;
+    overflow: auto;
+    padding: 2rem;
+}
+
+.images {
+    float: left;
+    width: 415px;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
 }
 
 /*-------------------------------------Media queries */

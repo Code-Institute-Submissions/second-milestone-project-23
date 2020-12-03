@@ -16,6 +16,7 @@ they want to go for. There are four different destinations being offered with di
 This website targets everyone from creative people who want to use dance and drama as a missions platform; youth groups looking to do work
 with other youths or young children, and those who are interested in going around preaching and giving testimonies in different churches.
 
+
 ### Business Goals 
 
 - To gain an increase in website user activity, online enquiries and direct contact with the company
@@ -60,6 +61,13 @@ was on.
 
 ### Media
 
+- The background video on the main page was implemented with the help from CodeNewbies <a href="https://www.youtube.com/watch?v=-G37aahAYlM">tutorial</a>.
+
+- The images on the bottom of the main page were found on <a href="https://pixabay.com/">Pixabay</a> and are free for commercial use.
+
 ### Acknowledgements
 
+At the start of this project I researched mission websites as well as holiday destination websites to gain some inspiration for the layout
+I would want as well as what type of content I should implement. Most of my inspiration came from <a href="https://www.cru.org/">CRU</a> 
+and <a href="https://www.exotravel.com/">EXO Travel</a>. 
 

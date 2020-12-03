@@ -1,45 +1,65 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# MOVEMENT
 
-Welcome jesshperez,
+It's part of our human nature to want to explore the world that we live in. Most people go on holiday abroad at least once a year. 
+Those who are single or retired travel even more. That is no different for us christians. Most christians have at some point in their 
+life wanted to go on a mission trip. Some people want to just experience the life of a missionary as a one off thing and see the work of 
+somebody they are either supporting or have heard about, others want to try it out and see if the missionary lifestyle is for them or not 
+and if it's something that God has called them to do. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+In this project I've created a website that provides services like this, where individuals/couples/families can experience life in the 
+mission field all from a couple of days to a couple of weeks. 
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The website offers different kinds of mission trips depending on what the individual/couple/family is looking for as well as for how long 
+they want to go for. There are four different destinations being offered with different trip lengths as well as different types of trips. 
+This website targets everyone from creative people who want to use dance and drama as a missions platform; youth groups looking to do work
+with other youths or young children, and those who are interested in going around preaching and giving testimonies in different churches.
 
-`python3 -m http.server`
+### Business Goals 
 
-A blue button should appear to click: *Make Public*,
+- To gain an increase in website user activity, online enquiries and direct contact with the company
 
-Another blue button should appear to click: *Open Browser*.
+- To provide an easy navigational website for all kinds of users, that is clear and looks professional 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Establish an online presence with the goal being one of the first options that comes up in the browser search
 
-A blue button should appear to click: *Make Public*,
+### User Stories
 
-Another blue button should appear to click: *Open Browser*.
+- As a user, when I click the contact page, I get moved from my current page to the contact page.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- As a user, when I click the images on the bottom, another window opens up showing me that particular page while still allowing me to
+see and access the page I was on.
 
-## Updates Since The Instructional Video
+- As a user, when I click on the email link in the footer, a popup-modal apperas with the contact form.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- As a user, when I click on the social links, another window opens up with that particular page allowing me to still see the page I
+was on.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- As a user, when email is entered incorrectly, an error message appears.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- As a user, when the subscribe button is clicked, an.....
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Wireframes
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Existing Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Features Left to Implement
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Technologies Used
 
---------
+## Testing
 
-Happy coding!
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
+
+### Acknowledgements
+
+

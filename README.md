@@ -41,11 +41,17 @@ was on.
 
 - As a user, when the subscribe button is clicked, an.....
 
+- As a user, when the itinerary buttons are clicked, the menu will dropdown. When clicked again the button will collapse.
+
 ### Wireframes
 
 ## Features
 
 ### Existing Features
+
+- Accordion/Collapse feature - collapse feature that allows the user to see an overview of the itinerary for the trip without too much space being taken
+up.
+
 
 ### Features Left to Implement
 
@@ -58,6 +64,8 @@ was on.
 ## Credits
 
 ### Content
+
+- The accordion on the destination pages were implemented with the help from <a href="https://www.youtube.com/watch?v=t5pJ-SYCZa0">Easy Tutorials</a>.
 
 ### Media
 

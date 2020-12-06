@@ -230,10 +230,12 @@ header {
 
 h1 {
     text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
 }
 
-.multicolortext {
-    background-image: linear-gradient(to left, red, blue, white, red);
+.multicolor-cuba {
+    background-image: linear-gradient(to left, red, blue, white);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -249,6 +251,36 @@ h1 {
     text-align: center;
     padding: .75rem 8rem;
     margin-bottom: 0;
+}
+
+/*-------------------------------------Russia page */
+
+.multicolor-russia {
+    background-image: linear-gradient(to left, red, blue, white);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/*-------------------------------------Myanmar page */
+
+.multicolor-myanmar {
+    background-image: linear-gradient(to left, yellow, green, red, white);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/*-------------------------------------India page */
+
+.multicolor-india {
+    background-image: linear-gradient(to left, orange, white green, blue);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 /*-------------------------------------Accordion */

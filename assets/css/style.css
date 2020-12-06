@@ -247,13 +247,19 @@ h1 {
 
 .p-text {
     text-align: center;
-    padding: 2rem 8rem;
+    padding: .75rem 8rem;
+    margin-bottom: 0;
 }
 
 /*-------------------------------------Accordion */
 
+.accordion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .btn-itinerary {
-    display: inline-block;
+    display: block;
     background: transparent;
     border: 0;
     font-size: 20px;
@@ -261,6 +267,7 @@ h1 {
     padding: 10px 25px;
     color: #fafafa;
 }
+
 .card .card-header {
     background: transparent;
     border: none;
@@ -285,8 +292,21 @@ h1 {
     font-size: 16px;
 }
 
+.btn-link:hover {
+    text-decoration: none;
+}
+
+.btn-link:focus {
+    text-decoration: none;
+    color: #007bff;
+}
+
 .card-body {
     background: #e8eeff;
+}
+
+.card-body:hover {
+    text-decoration: none;
 }
 
 .btn-link:after {
@@ -314,7 +334,7 @@ h1 {
     z-index: 1;
     transform: rotate(45deg);
     left: 30px;
-    top: 33px;
+    top: 31px;
 }
 /*-------------------------------------Carousel */
 
@@ -364,7 +384,7 @@ h1 {
         display: flex;
     }
     .p-text {
-        padding: 2rem 5rem;
+        padding: .75rem 5rem;
     }
     .card {
         margin: .5rem 5rem;
@@ -376,16 +396,13 @@ h1 {
 
 @media (max-width: 375px) {
     .p-text {
-        padding: 1rem 2rem;
+        padding: .75rem 2rem;
     }
     .card {
         margin: .5rem 2rem;
     }
     .btn-link {
         font-size: 13px;
-    }
-    .btn-link:before {
-        top: 35.5px;
     }
     .carousel-item {
         height: 13rem;

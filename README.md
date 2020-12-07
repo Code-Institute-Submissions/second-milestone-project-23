@@ -57,6 +57,33 @@ up.
 
 ## Technologies Used
 
+1. <a href="#">Balsamiq Wireframes</a>
+    - used at the beginning of the project to develop the right UX design desired for mobile, iPad and desktop resolutions.
+
+2. <a href="https://html.com/">HTML</a>
+    - used to modify and add structure from bootstrap.
+
+3. <a href="https://www.w3.org/Style/CSS/">CSS</a>
+    - used to style the website according to its purpose.
+
+4. <a href="https://getbootstrap.com/">Bootstrap v.4.5.2</a>
+    - used to build the main frame and structure for all pages with a mobile first approach and desktop view.
+
+5. <a href="https://jquery.com/">jQuery</a>
+    - used to add the command codes for contact form and subscription service. 
+
+6. <a href="https://fontawesome.com/">Fontawesome</a>
+    - used for all the icons.
+
+7. <a href="https://fonts.google.com/">Googlefonts</a>
+    - used for the fonts of all pages.
+
+8. <a href="https://github.com/">GitHub</a>
+    - I uploaded my projects on a regular basis on github and also used it as a source of information and tool to learn even how to write this ReadMe.
+
+9. <a href="https://google.com">Google</a> and <a href="https://youtube.com">Youtube</a> 
+    - used when I was stuck and needed some help in developing my project.
+
 ## Testing
 
 ## Deployment

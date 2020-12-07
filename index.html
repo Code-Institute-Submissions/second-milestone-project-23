@@ -69,7 +69,7 @@
                     <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                <map name=""></map>
+                    <div id="map"></div>
                 </div>
             </div>
             <div class="container">
@@ -151,7 +151,7 @@
         </div>
     </footer>
     <div class="modal" tabindex="-1" id="contactModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Contact Us!</h5>
@@ -190,15 +190,17 @@
                                         <option>India</option>
                                     </select>
                             </div>
-                            <div class="form-row">
+                            <div class="form-row text-area">
                                 <div class="form-group col-12">
-                                    <label for="formControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="formControlTextarea1" rows="5"></textarea>
+                                    <label for="textarea">Message</label>
+                                    <textarea class="form-control" id="textarea" rows="5"></textarea>
                                 </div>    
                             </div>
-                            <div class="form-row">
+            
                                 <div class="form-group">
                                     <label for="formControlRadio1">Subscribe to our newsletter</label>
+                                </div>
+                                <div class="form-group">
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                         <label class="form-check-label" for="inlineRadio1">Yes</label>
@@ -208,7 +210,7 @@
                                         <label class="form-check-label" for="inlineRadio2">No</label>
                                     </div> 
                                 </div>
-                            </div>
+                        
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
@@ -216,6 +218,9 @@
             </div>
         </div>
     </div>
+    <script>
+        var APIKey = "AIzaSyA0oLQxdHhnOFjmme9MpSDVzmUz95gaaBM";
+    </script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

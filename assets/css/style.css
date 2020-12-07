@@ -386,6 +386,34 @@ h1 {
     background-size: cover;
 }
 
+/*-------------------------------------Modal */
+
+.modal-content {
+    background: #fff;
+    width: 800px;
+    max-width: 800px;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+
+.modal-header {
+    background: linear-gradient(to left, red, blue, white, yellow, green, orange);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.modal-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ 
+textarea .form-control {
+    margin-left: 5px;
+    width: 750px;
+}    
 
 /*-------------------------------------Media queries */
 
@@ -424,6 +452,9 @@ h1 {
     .carousel-item {
         height: 25rem;
     }
+    .modal-content {
+        width: 600px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -438,6 +469,11 @@ h1 {
     }
     .carousel-item {
         height: 13rem;
+    }
+    .modal-content {
+        width: 300px;
+        height: 80vh;
+        padding: 1.2rem;
     }
 }
 

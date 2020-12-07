@@ -276,7 +276,7 @@ h1 {
 /*-------------------------------------India page */
 
 .multicolor-india {
-    background-image: linear-gradient(to left, orange, white green, blue);
+    background-image: linear-gradient(to left, orange, white, green, blue);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;

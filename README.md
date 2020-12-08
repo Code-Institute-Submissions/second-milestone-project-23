@@ -49,8 +49,12 @@ was on.
 
 ### Existing Features
 
-- Accordion/Collapse feature - collapse feature that allows the user to see an overview of the itinerary for the trip without too much space being taken
+- Map feature: map of the world with markers showing where the trips are located.
+
+- Accordion/Collapse feature: collapse feature that allows the user to see an overview of the itinerary for the trip without too much space being taken
 up.
+
+- Carousel feature: showing slideshow with images from the different countries.
 
 
 ### Features Left to Implement

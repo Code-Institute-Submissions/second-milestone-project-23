@@ -157,7 +157,7 @@ header {
 
 #section-background {
     background: #dbdbdb;
-} 
+}
 
 .section-icon {
     text-align: center;
@@ -216,7 +216,7 @@ header {
     padding: 10px 0 5px;
     transform: translate(0%, -100%);
     text-align: center;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     cursor: pointer;
 }
 
@@ -253,7 +253,7 @@ h1 {
 
 .length-trip {
     text-align: center;
-    font-family: 'Dancing Script', cursive; 
+    font-family: 'Dancing Script', cursive;
 }
 
 .p-text {
@@ -317,8 +317,8 @@ h1 {
 }
 
 .card {
-    box-shadow: 0 2px 20px 0 rgba(110,130,208,.18);
-    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 0 2px 20px 0 rgba(110, 130, 208, .18);
+    border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .5rem;
     margin: .5rem 8rem;
 }
@@ -377,6 +377,7 @@ h1 {
     left: 30px;
     top: 31px;
 }
+
 /*-------------------------------------Carousel */
 
 .carousel-item {
@@ -402,7 +403,7 @@ h1 {
     width: 800px;
     max-width: 800px;
     padding: 25px 40px 10px 40px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
 }
 
 .modal-header {
@@ -418,11 +419,11 @@ h1 {
     text-transform: uppercase;
     font-weight: bold;
 }
- 
+
 textarea .form-control {
     margin-left: 5px;
     width: 750px;
-}    
+}
 
 /*-------------------------------------Media queries */
 
@@ -435,35 +436,45 @@ textarea .form-control {
         display: none;
         width: 100%;
     }
+
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
     }
+
     .navbar-links li {
         text-align: center;
     }
+
     .navbar-links li a {
         padding: .5rem 1rem;
     }
+
     .navbar-links.active {
         display: flex;
     }
+
     .p-text {
         padding: .75rem 5rem;
     }
+
     .card {
         margin: .5rem 5rem;
     }
+
     .carousel-item {
         height: 25rem;
     }
+
     .modal-content {
         width: 600px;
     }
+
     #map {
         width: 100%;
         margin-left: 2rem;
@@ -475,18 +486,23 @@ textarea .form-control {
     .main-text {
         padding: 2rem;
     }
+
     .p-text {
         padding: .75rem 2rem;
     }
+
     .card {
         margin: .5rem 2rem;
     }
+
     .btn-link {
         font-size: 13px;
     }
+
     .carousel-item {
         height: 13rem;
     }
+
     .modal-content {
         width: 300px;
         height: 80vh;

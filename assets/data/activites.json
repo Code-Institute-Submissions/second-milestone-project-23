@@ -1,0 +1,366 @@
+{
+    "india": [{
+        "name": "Howrah Bridge",
+        "description": "The iconic Howrah Bridge is an architectural wonder in itself. Commissioned in 1943, it is the busiest cantilever bridge in the world and is also among the most-visited structures in Kolkata. Make sure that you visit the bridge during the night when it is illuminated, giving it a magical charm.",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "One of the most exciting things to do in Kolkata is shopping. It definitely helps that the city has a number of markets where you can find everything from garments to jewelry and even home decor items. Some of the best shopping destinations of Kolkata include:",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Shop for garments, ladies handbags, jewelry, footwear and spices.",
+        "number_of_hours": "10:00 am to 20:00 pm, closed on Sundays"
+    }, {
+        "name": "Kolkata street food",
+        "description": "There’s no doubt that Kolkata is a foodie’s paradise. You will find the city enticing you with soulful treats in almost every nook and corner. Here are some places we recommend you to try: Theatre Road, Shyam Bazaar, Deshapriya Park, Gariahat More, Park Street, Vivekananda Park, and Dacre Lane.",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Get acquainted with the Indian culture through the food. Some must try foods include Phuchkas, Rolls, Aloo Chop, Ghugni, Jhalmuri, Shingara, Peyaji, and Chanar Jilipi. ",
+        "number_of_hours": "2h"
+    }, {
+        "name": "Botanical Gardens",
+        "description": "When you are looking for places to visit in Kolkata, you can’t leave behind the Botanical Gardens. This sprawling garden spreading across 109 hectares is home to around 12000 species of plants and trees, some of which are quite rare. The main attraction of this garden is the Great Banyan, a huge banyan tree which is touted to be the largest tree in the country and perhaps in the whole of Asia.",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Location: Shibpur, Howrah; Entry fee: 10 rupees",
+        "number_of_hours": "8:00 am to 18:00 pm; everyday"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }],
+    "cuba": [{
+        "name": "Howrah Bridge",
+        "description": "The iconic Howrah Bridge is an architectural wonder in itself. Commissioned in 1943, it is the busiest cantilever bridge in the world and is also among the most-visited structures in Kolkata. Make sure that you visit the bridge during the night when it is illuminated, giving it a magical charm.",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }],
+    "russia": [{
+        "name": "Howrah Bridge",
+        "description": "The iconic Howrah Bridge is an architectural wonder in itself. Commissioned in 1943, it is the busiest cantilever bridge in the world and is also among the most-visited structures in Kolkata. Make sure that you visit the bridge during the night when it is illuminated, giving it a magical charm.",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }],
+    "mynmar": [{
+        "name": "Howrah Bridge",
+        "description": "The iconic Howrah Bridge is an architectural wonder in itself. Commissioned in 1943, it is the busiest cantilever bridge in the world and is also among the most-visited structures in Kolkata. Make sure that you visit the bridge during the night when it is illuminated, giving it a magical charm.",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }, {
+        "name": "New Market",
+        "description": "",
+        "header_image": "../media/ping-pong.jpeg",
+        "activities_details": "Husband has to say Ping and then wife would reply pong",
+        "number_of_hours": "2h"
+    }]
+}

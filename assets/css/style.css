@@ -226,6 +226,15 @@ header {
     font-weight: 700;
 }
 
+/*-------------------------------------Map */
+
+#map {
+    min-height: 360px;
+    width: 100%;
+    top: 2rem;
+    right: 2rem;
+}
+
 /*-------------------------------------Cuba page */
 
 h1 {
@@ -455,9 +464,17 @@ textarea .form-control {
     .modal-content {
         width: 600px;
     }
+    #map {
+        width: 100%;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width: 375px) {
+    .main-text {
+        padding: 2rem;
+    }
     .p-text {
         padding: .75rem 2rem;
     }

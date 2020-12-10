@@ -17,7 +17,7 @@ This website targets everyone from creative people who want to use dance and dra
 with other youths or young children, and those who are interested in going around preaching and giving testimonies in different churches.
 
 
-### Business Goals 
+### Website Goals 
 
 - To gain an increase in website user activity, online enquiries and direct contact with the company
 
@@ -27,10 +27,18 @@ with other youths or young children, and those who are interested in going aroun
 
 ### User Stories
 
+#### Navbar
+
 - As a user, when I click the contact page, I get moved from my current page to the contact page.
+
+#### Destination section
+
+- As a user, when the map markers are clicked I see an overview of the country.
 
 - As a user, when I click the images on the bottom, another window opens up showing me that particular page while still allowing me to
 see and access the page I was on.
+
+#### Footer
 
 - As a user, when I click on the email link in the footer, a popup-modal apperas with the contact form.
 
@@ -50,6 +58,7 @@ was on.
 ### Existing Features
 
 - Map feature: map of the world with markers showing where the trips are located.
+    - Markers on the map show an overview of the country when clicked.
 
 - Accordion/Collapse feature: collapse feature that allows the user to see an overview of the itinerary for the trip without too much space being taken
 up.
@@ -61,7 +70,7 @@ up.
 
 ## Technologies Used
 
-1. <a href="#">Balsamiq Wireframes</a>
+1. <a href="https://balsamiq.com">Balsamiq Wireframes</a>
     - used at the beginning of the project to develop the right UX design desired for mobile, iPad and desktop resolutions.
 
 2. <a href="https://html.com/">HTML</a>
@@ -73,7 +82,7 @@ up.
 4. <a href="https://getbootstrap.com/">Bootstrap v.4.5.2</a>
     - used to build the main frame and structure for all pages with a mobile first approach and desktop view.
 
-5. <a href="https://jquery.com/">jQuery</a>
+5. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
     - used to add the command codes for contact form and subscription service. 
 
 6. <a href="https://fontawesome.com/">Fontawesome</a>
@@ -95,6 +104,8 @@ up.
 ## Credits
 
 ### Content
+
+- The markers on the map were implemented with the help of Traversy Media <a href="https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=577s">Google Maps JavaScript API Tutorial</a>.
 
 - The "Things to explore" text for cuba.html was taken from different websites such as <a href="https://www.tripadvisor.com/Attractions-g147271-Activities-Havana_Ciudad_de_la_Habana_Province_Cuba.html">Trip Advisor</a>,
 

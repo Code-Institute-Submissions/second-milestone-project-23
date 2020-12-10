@@ -96,6 +96,10 @@ up.
 
 ### Content
 
+- The "Things to explore" text for cuba.html was taken from different websites such as <a href="https://www.tripadvisor.com/Attractions-g147271-Activities-Havana_Ciudad_de_la_Habana_Province_Cuba.html">Trip Advisor</a>,
+
+- The "Things to explore" text for india.html was taken from different websites such as <a href="https://www.tripadvisor.com/Attractions-g304558-Activities-Kolkata_Calcutta_Kolkata_District_West_Bengal.html">Trip Advisor</a>, <a href="https://www.holidify.com/places/kolkata/eco-tourism-park-sightseeing-121302.html">Holidify</a> and <a href="https://www.fabhotels.com/blog/things-to-do-in-kolkata-in-one-day/">Fab Hotels</a>.
+
 - The accordion on the destination pages were implemented with the help from <a href="https://www.youtube.com/watch?v=t5pJ-SYCZa0">Easy Tutorials</a>.
 
 ### Media

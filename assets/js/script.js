@@ -15,6 +15,28 @@ function initMap() {
     });
 }
 
+fetch("../assets/data/activities.json").then((result) => {
+    const currentPath = window.location.pathname;
+    switch (currentPath) {
+        case "/india.html":
+
+            const indiaActivities = result.india;
+
+            function shuffleArray(array) {
+                for (var i = array.length - 1; i > 0; i--) {
+                    var j = Math.floor(Math.random() * (i + 1));
+                    var temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+            }
+
+            break;
+
+        default:
+            break;
+    }
+})
 
 fetch("../assets/data/activities.json").then((result) => {
     const currentPath = window.location.pathname;
@@ -22,6 +44,17 @@ fetch("../assets/data/activities.json").then((result) => {
         case "/russia.html":
 
             const russiaActivities = result.russia;
+
+            function shuffleArray(array) {
+                for (var i = array.length - 1; i > 0; i--) {
+                    var j = Math.floor(Math.random() * (i + 1));
+                    var temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+            }
+
+
 
             // Randeomized the array 
             // build list of html 

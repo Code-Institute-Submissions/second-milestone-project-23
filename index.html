@@ -28,7 +28,7 @@
                 <ul>
                     <li><a href="#mission">About</a></li>
                     <li><a href="#destination">Mission Trips</a></li>
-                    <li><a href="#contactModal" data-toggle="modal" data-target="#contactModal">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -67,13 +67,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 info-text">
+                <div class="col-12 info-text">
                     <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                    <div id="map"></div>
+            </div>
+            <div class="row" id="map-container">
+                <div class="col-12">
+                    <div id="map" class="d-sm-block"></div>
                 </div>
             </div>
+
             <div class="container">
                 <div class="row">
                     <div class="col-sm-3 col-md-6 col-lg-3 images">
@@ -157,9 +160,10 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
                 <h5>Subscribe to our newsletter!</h5>
                 <div>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Your email address">
+                    <form id="form" action="#">
+                        <div class="inputBox">
+                            <input type="text" name="" id="email" class="form-control" placeholder="Your Email Address">
+                            <span id="text"></span>
                         </div>
                         <button type="submit" class="btn-footer">Subscribe</button>
                     </form>
@@ -167,80 +171,92 @@
             </div>
         </div>
     </footer>
+
     <div class="modal" tabindex="-1" id="contactModal">
+
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Contact Us!</h5>
+                    <h5 class="modal-title">Get In Touch!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-4">
-                                <label for="inputFirstName4">First name</label>
-                                <input type="name" class="form-control" id="inputFirstName4">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputLastName4">Last name</label>
-                                <input type="name" class="form-control" id="inputLastName4">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-8">
-                                <label for="inputEnquiry">Enquiry</label>
-                                <input type="text" class="form-control" id="inputEnquiry">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputCountry">Country</label>
-                                <select id="inputCountry" class="form-control">
-                                    <option selected>None selected</option>
-                                    <option>Cuba</option>
-                                    <option>Russia</option>
-                                    <option>Myanmar</option>
-                                    <option>India</option>
-                                </select>
-                            </div>
-                            <div class="form-row text-area">
-                                <div class="form-group col-12">
-                                    <label for="textarea">Message</label>
-                                    <textarea class="form-control" id="textarea" rows="5"></textarea>
+                    <div class="contact-container" onsubmit="return sendMail(this);">
+                        <form action="#">
+                            <div class="form-row ">
+                                <div class="col-md-6 input-data">
+                                    <input type="text" required>
+                                    <div class="underline">
+                                    </div>
+                                    <label for="">First Name</label>
+                                </div>
+                                <div class="col-md-6 input-data">
+                                    <input type="text" required>
+                                    <div class="underline">
+                                    </div>
+                                    <label for="">Last Name</label>
                                 </div>
                             </div>
+                            <div class="form-row">
+                                <div class="input-data">
+                                    <input type="text" required>
+                                    <div class="underline">
+                                    </div>
+                                    <label for="">Email Address</label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="input-data">
+                                    <input type="text" required>
+                                    <div class="underline">
+                                    </div>
+                                    <label for="">Enquiry</label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="input-data textarea">
+                                    <textarea rows="8" cols="80" required></textarea>
+                                    <br />
+                                    <div class="underline">
+                                    </div>
+                                    <label for="">Write your message</label>
+                                </div>
+                            </div>
+                            <p class="subscribe-text">Subscribe to our Newsletter:</p>
+                            <div class="form-row">
+                                <div class="form-check">
+                                    <input type="radio" name="subscribe" id="true" value="true" required>
+                                    <label for="true">Yes, I'd love to!</label>
+                                    <br>
 
-                            <div class="form-group">
-                                <label for="formControlRadio1">Subscribe to our newsletter</label>
-                            </div>
-                            <div class="form-group">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                    <input type="radio" name="subscribe" id="false" value="false">
+                                    <label for="false">No thank you</label>
+                                    <br>
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">No</label>
+                                <br />
+                                <div class="form-row submit-btn">
+                                    <div class="input-data">
+                                        <div class="inner"></div>
+                                        <input type="submit" value="submit">
+                                    </div>
                                 </div>
                             </div>
-
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0oLQxdHhnOFjmme9MpSDVzmUz95gaaBM&callback=initMap"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <script src="assets/js/script.js"></script>
 </body>
 

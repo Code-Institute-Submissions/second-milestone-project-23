@@ -67,31 +67,48 @@ function initMap() {
     }
 }
 //--- END CREDIT ---
+//Validation for subscribe form
+//CREDIT: Validation function implemented with the help from Coding Nepal's tutorial<a href="https://www.youtube.com/watch?v=qGzJtVbXPhY"></a>
 
-//CREDIT: Validation function implemented with the help from Online Tutorials <a href="https://www.youtube.com/watch?v=HzJngc-Se9Q"></a>
+const email = document.querySelector("#email");
+const icon1 = document.querySelector(".icon1");
+const icon2 = document.querySelector(".icon2");
+const error = document.querySelector(".error-text");
+const btn = document.querySelector("button");
+let regExp = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
-function validate() {
-    const form = document.getElementById("form");
-    const email = document.getElementById("email").value;
-    const text = document.getElementById("text");
-    const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-
-    if (email.match(pattern)) {
-        form.classList.add("valid");
-        form.classList.remove("invalid");
-        text.innerHTML = "Your Email Address is valid.";
-        text.style.color = "#00ff00";
+function check() {
+    if (email.value.match(regExp)) {
+        email.style.borderColor = "#27ae60";
+        email.style.background = "#eafaf1";
+        icon1.style.display = "none";
+        icon2.style.display = "block";
+        error.style.display = "none";
+        btn.style.display = "block";
     } else {
-        form.classList.remove("valid");
-        form.classList.add("invalid");
-        text.innerHTML = "Please Enter Valid Email Address";
-        text.style.color = "#00ff00";
+        email.style.borderColor = "#e74c3c";
+        email.style.background = "#fceae9";
+        icon1.style.display = "block";
+        icon2.style.display = "none";
+        error.style.display = "block";
+        btn.style.display = "none";
     }
-    if (email == "") {
-        form.classList.remove("valid");
-        form.classList.remove("invalid");
-        text.innerHTML = "";
-        text.style.color = "#00ff00";
+    if (email.value == "") {
+        email.style.borderColor = "lightgrey";
+        email.style.background = "#fff";
+        icon1.style.display = "none";
+        icon2.style.display = "none";
+        error.style.display = "none";
+        btn.style.display = "none";
     }
 }
+
 // --- END CREDIT ---//
+let inputs = document.querySelectorAll("input");
+
+btn.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.target.textContent = "Subscribed!";
+
+    inputs.forEach(input => input.value = "");
+})

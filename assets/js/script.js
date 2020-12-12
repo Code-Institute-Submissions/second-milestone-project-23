@@ -68,63 +68,30 @@ function initMap() {
 }
 //--- END CREDIT ---
 
-fetch("../assets/data/activities.json").then((result) => {
-    const currentPath = window.location.pathname;
-    switch (currentPath) {
-        case "/india.html":
+//CREDIT: Validation function implemented with the help from Online Tutorials <a href="https://www.youtube.com/watch?v=HzJngc-Se9Q"></a>
 
-            const indiaActivities = result.india;
+function validate() {
+    const form = document.getElementById("form");
+    const email = document.getElementById("email").value;
+    const text = document.getElementById("text");
+    const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
-            function shuffleArray(array) {
-                for (var i = array.length - 1; i > 0; i--) {
-                    var j = Math.floor(Math.random() * (i + 1));
-                    var temp = array[i];
-                    array[i] = array[j];
-                    array[j] = temp;
-                }
-            }
-
-            break;
-
-        default:
-            break;
+    if (email.match(pattern)) {
+        form.classList.add("valid");
+        form.classList.remove("invalid");
+        text.innerHTML = "Your Email Address is valid.";
+        text.style.color = "#00ff00";
+    } else {
+        form.classList.remove("valid");
+        form.classList.add("invalid");
+        text.innerHTML = "Please Enter Valid Email Address";
+        text.style.color = "#00ff00";
     }
-})
-
-fetch("../assets/data/activities.json").then((result) => {
-    const currentPath = window.location.pathname;
-    switch (currentPath) {
-        case "/russia.html":
-
-            const russiaActivities = result.russia;
-
-            function shuffleArray(array) {
-                for (var i = array.length - 1; i > 0; i--) {
-                    var j = Math.floor(Math.random() * (i + 1));
-                    var temp = array[i];
-                    array[i] = array[j];
-                    array[j] = temp;
-                }
-            }
-
-
-
-            // Randeomized the array 
-            // build list of html 
-            // Append in to the bottom pf the page
-
-
-            break;
-
-        default:
-            break;
+    if (email == "") {
+        form.classList.remove("valid");
+        form.classList.remove("invalid");
+        text.innerHTML = "";
+        text.style.color = "#00ff00";
     }
-})
-
-
-
-
-// Fetch activities Data 
-// CHECK WHICH COUNTRY USER IS BROWSING window.location.pathname.endsWith("russia.html")
-// Switch case , India then 
-// get the list of activities for india Build list of activities
+}
+// --- END CREDIT ---//

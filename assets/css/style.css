@@ -31,7 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     color: #fafafa;
     font-family: 'Poppins', sans-serif;
     padding: .5rem 2rem;
@@ -64,7 +64,7 @@ header {
 }
 
 .navbar-links li:hover {
-    background-color: #006994;
+    background-color: #83939d;
 }
 
 /*-------------------------------------Banner */
@@ -78,19 +78,19 @@ header {
 }
 
 .banner-text h2 {
-    color: #fff;
+    color: #363e45;
     font-size: 55px;
     margin: 0;
 }
 
 .banner-text p {
-    color: #fff;
+    color: #b46426;
     font-size: 18px;
     margin: 0;
     font-weight: bold;
 }
 
-.btn {
+.contact-btn {
     display: inline-block;
     margin-top: 5%;
     background: transparent;
@@ -264,12 +264,15 @@ h1 {
     margin-top: 2rem;
 }
 
-.multicolor-cuba {
-    background-image: linear-gradient(to left, red, blue, white);
+.multicolor {
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.cuba {
+    background-image: linear-gradient(to left, red, blue, white);
 }
 
 .length-trip {
@@ -285,32 +288,20 @@ h1 {
 
 /*-------------------------------------Russia page */
 
-.multicolor-russia {
-    background-image: linear-gradient(to left, red, blue, white);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
+.russia {
+    background-image: linear-gradient(to left, red, blue);
 }
 
 /*-------------------------------------Myanmar page */
 
-.multicolor-myanmar {
-    background-image: linear-gradient(to left, yellow, green, red, white);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
+.myanmar {
+    background-image: linear-gradient(to left, yellow, green, red);
 }
 
 /*-------------------------------------India page */
 
-.multicolor-india {
-    background-image: linear-gradient(to left, orange, white, green, blue);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
+.india {
+    background-image: linear-gradient(to left, orange, green, blue);
 }
 
 /*-------------------------------------Accordion */
@@ -423,8 +414,12 @@ h1 {
 /*CREDIT: The idea of this code was taken from Coding Nepal's tutorial ("https://www.youtube.com/watch?v=OQ0hgVVwNOI")
 with a few modifications done to suit what I needed*/
 
+#contactform {
+    padding-right: 2.5rem;
+}
+
 .modal-content {
-    padding: 20px 10px 10px 10px;
+    padding-top: 1.5rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -439,8 +434,8 @@ with a few modifications done to suit what I needed*/
     -webkit-text-fill-color: transparent;
 }
 
-.modal-content form {
-    padding: 30px 0 0 0;
+.modal-header button {
+    font-size: xxx-large;
 }
 
 .modal-content form .form-row {
@@ -538,7 +533,12 @@ form .form-row .textarea {
     margin-bottom: .5rem;
 }
 
-.modal-btn {
+.modal-footer {
+    display: block;
+    text-align: center;
+}
+
+.modal-footer button {
     display: inline-block;
     border: 0;
     font-size: 18px;
@@ -547,6 +547,7 @@ form .form-row .textarea {
     padding: 10px 25px;
     color: #fafafa;
     border-radius: 10px;
+    text-align: center;
 }
 
 /*-------------------------------------Media queries */
@@ -608,8 +609,30 @@ form .form-row .textarea {
 }
 
 @media (max-width: 375px) {
+    .navbar {
+        padding: .75rem;
+    }
+
+    .logo {
+        font-size: 2.2rem;
+        padding-left: 1rem;
+    }
+
+    .toggle-button {
+        top: 2.2rem;
+        right: 1.8rem;
+    }
+
+    .banner-text h2 {
+        font-size: 50px;
+        margin-top: 3rem;
+    }
+
     .main-text {
-        padding: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .p-text {
@@ -630,8 +653,65 @@ form .form-row .textarea {
 
     .modal-content {
         width: 300px;
-        height: 80vh;
+        height: 107vh;
         padding: 1.2rem;
+        margin-left: 2rem;
+    }
+
+    .modal-content .modal-title {
+        font-size: 23px;
+    }
+
+    .modal-header button {
+        font-size: xx-large;
+    }
+
+    .modal-body {
+        padding: 0;
+    }
+
+    #lastName {
+        margin-top: 2rem
+    }
+
+    #emailAddress {
+        margin-top: 2rem
+    }
+
+    .info-text {
+        text-align: center;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .row {
+        margin-left: -15px;
+    }
+
+    .images {
+        width: 340px;
+        height: 15rem;
+    }
+
+    #footer-details {
+        text-align: center;
+    }
+
+    #footer-details h5 {
+        font-size: 1.5rem;
+        margin-bottom: .75rem;
+    }
+
+    #footer-details p {
+        margin-bottom: 1.5rem;
+    }
+
+    .social-links {
+        margin-bottom: 1.5rem;
+    }
+
+    #form .field #email {
+        text-align: center;
     }
 
 }
@@ -657,29 +737,58 @@ form .form-row .textarea {
         font-size: 40px;
         margin-top: 6rem;
     }
-}
 
-.images {
-    height: 12rem;
-    width: 285px;
-}
+    .info-text {
+        text-align: center;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
 
-#footer-details {
-    text-align: center;
-}
+    .row {
+        margin-right: 0px;
+        margin-left: -10px;
+    }
 
-#footer-details h5 {
-    font-size: 1.5rem;
-    margin-bottom: .75rem;
-}
+    .images {
+        height: 12rem;
+        width: 280px;
+    }
 
-#footer-details p {
-    margin-bottom: 1.5rem;
-}
+    #footer-details {
+        text-align: center;
+    }
 
-.social-links {
-    margin-bottom: 1.5rem;
-}
+    #footer-details h5 {
+        font-size: 1.3rem;
+        margin-bottom: .75rem;
+    }
+
+    #footer-details p {
+        margin-bottom: 1.5rem;
+    }
+
+    .social-links {
+        margin-bottom: 1.5rem;
+    }
+
+    #form .field #email {
+        font-size: 16px;
+    }
+
+    .modal-content {
+        width: 260px;
+        height: 130vh;
+        padding: 1.2rem;
+        margin-left: 1.5rem;
+    }
+
+    .modal-content .modal-title {
+        font-size: 21px;
+    }
+
+    .input-data label {
+        font-size: 15px;
+    }
 }
 
 

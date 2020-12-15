@@ -31,7 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     color: #fafafa;
     font-family: 'Poppins', sans-serif;
     padding: .5rem 2rem;
@@ -82,13 +82,13 @@ header {
 }
 
 .banner-text h2 {
-    color: #363e45;
+    color: #fafafa;
     font-size: 55px;
     margin: 0;
 }
 
 .banner-text p {
-    color: #b46426;
+    color: #fafafa;
     font-size: 18px;
     margin: 0;
     font-weight: bold;
@@ -108,34 +108,7 @@ header {
 }
 
 .btn:hover {
-    background-color: #006994;
-}
-
-/*-------------------------------------Main page */
-
-.main-page {
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 3rem;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.highlight-underline-blue::after {
-    content: "";
-    width: 8rem;
-    position: absolute;
-    margin: 0 auto;
-    height: 5px;
-    background: #8f8f8f;
-    left: 0;
-    right: 0;
-    bottom: -10px;
-}
-
-.main-text {
-    text-align: center;
-    padding: 3rem 8rem;
+    background-color: #b46426;
 }
 
 /*-------------------------------------Mobile view */
@@ -156,6 +129,37 @@ header {
     width: 100%;
     background-color: #fafafa;
     border-radius: 10px;
+}
+
+/*-------------------------------------Main page */
+
+.main-page {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.highlight {
+    content: "";
+    width: 8rem;
+    position: absolute;
+    margin: 0 auto;
+    height: 5px;
+    background: #8f8f8f;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+.highlight-underline-blue::after {
+    background: #8f8f8f;
+}
+
+.main-text {
+    text-align: center;
+    padding: 3rem 8rem;
 }
 
 /*-------------------------------------Trips section*/
@@ -183,15 +187,7 @@ header {
 }
 
 .highlight-underline-white::after {
-    content: "";
-    width: 8rem;
-    position: absolute;
-    margin: 0 auto;
-    height: 5px;
     background: #fafafa;
-    left: 0;
-    right: 0;
-    bottom: -10px;
 }
 
 .info-text {
@@ -432,10 +428,6 @@ with a few modifications done to suit what I needed*/
     font-size: 35px;
     font-weight: 6;
     background-image: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .modal-header button {

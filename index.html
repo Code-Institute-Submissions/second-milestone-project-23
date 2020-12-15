@@ -71,55 +71,49 @@
                     <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                 </div>
             </div>
-            <div class="row" id="map-container">
-                <div class="col-12">
-                    <div id="map" class="d-sm-block"></div>
+
+            <div class="row">
+                <div class="col-sm-3 col-md-6 col-lg-3 images">
+
+                    <a href="cuba.html" target="_blank"><img src="assets/media/cuba.jpg" class="img-fluid" alt="Responsive image"></a>
+
+                    <div class="country">
+                        <h3>
+                            <a href="#">CUBA
+                                <img src="assets/media/cuba-flag.png" alt=""></a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-6 col-lg-3 images">
+                    <a href="russia.html" target="_blank"><img src="assets/media/russia.jpg" class="img-fluid" alt="Responsive image"></a>
+                    <div class="country">
+                        <h3>
+                            <a href="#">RUSSIA
+                                <img src="assets/media/russia-flag.png" alt="">
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-6 col-lg-3 images">
+                    <a href="myanmar.html" target="_blank"><img src="assets/media/myanmar.jpg" class="img-fluid" alt="Responsive image"></a>
+                    <div class="country">
+                        <h3>
+                            <a href="#">MYANMAR
+                                <img src="assets/media/myanmar-flag.png" alt=""></a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-6 col-lg-3 images">
+                    <a href="india.html" target="_blank"><img src="assets/media/india.jpg" class="img-fluid" alt="Responsive image"></a>
+                    <div class="country">
+                        <h3>
+                            <a href="#">INDIA
+                                <img src="assets/media/india-flag.png" alt=""></a>
+                        </h3>
+                    </div>
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3 col-md-6 col-lg-3 images">
-
-                        <a href="cuba.html" target="_blank"><img src="assets/media/cuba.jpg" class="img-fluid" alt="Responsive image"></a>
-
-                        <div class="country">
-                            <h3>
-                                <a href="#">CUBA
-                                    <img src="assets/media/cuba-flag.png" alt=""></a>
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-md-6 col-lg-3 images">
-                        <a href="russia.html" target="_blank"><img src="assets/media/russia.jpg" class="img-fluid" alt="Responsive image"></a>
-                        <div class="country">
-                            <h3>
-                                <a href="#">RUSSIA
-                                    <img src="assets/media/russia-flag.png" alt="">
-                                </a>
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-md-6 col-lg-3 images">
-                        <a href="myanmar.html" target="_blank"><img src="assets/media/myanmar.jpg" class="img-fluid" alt="Responsive image"></a>
-                        <div class="country">
-                            <h3>
-                                <a href="#">MYANMAR
-                                    <img src="assets/media/myanmar-flag.png" alt=""></a>
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-md-6 col-lg-3 images">
-                        <a href="india.html" target="_blank"><img src="assets/media/india.jpg" class="img-fluid" alt="Responsive image"></a>
-                        <div class="country">
-                            <h3>
-                                <a href="#">INDIA
-                                    <img src="assets/media/india-flag.png" alt=""></a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
     <footer class="container-fluid">
@@ -165,8 +159,8 @@
                             <div class="field">
                                 <input onkeyup="check()" type="text" id="email" autocomplete="off" placeholder="Your Email Address">
                                 <div class="icons">
-                                    <span class="icon1 fas fa-exclamation"></span>
-                                    <span class="icon2 fas fa-check"></span>
+                                    <span class="icon1 fas fa-exclamation-circle"></span>
+                                    <span class="icon2 fas fa-check-circle"></span>
                                 </div>
                             </div>
                             <div class="error-text">Please Enter Valid Email Address</div>
@@ -189,60 +183,79 @@
                 </div>
                 <div class="modal-body">
                     <div class="container">
-                        <form action="#">
+                        <div id="error"></div>
+                        <form id="contactform" action="#" method="GET">
                             <div class="form-row">
                                 <div class="col-md-6">
+
                                     <div class="input-data">
-                                        <input type="text" required>
+                                        <input type="text" id="firstname" required>
                                         <div class="underline"></div>
-                                        <label for="firstName">First Name</label>
+                                        <label for="firstname">First Name</label>
+
                                     </div>
+
                                 </div>
                                 <div class="col-md-6">
+
                                     <div class="input-data">
-                                        <input type="text" required>
+                                        <input type="text" id="lastName" required>
                                         <div class="underline"></div>
                                         <label for="lastName">Last Name</label>
+
+
                                     </div>
+
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="col-md-6">
+
                                     <div class="input-data">
-                                        <input type="text" required>
+                                        <input type="text" id="subject" required>
                                         <div class="underline"></div>
-                                        <label for="enquiry">Enquiry</label>
+                                        <label for="Subject">Subject</label>
+
                                     </div>
+
                                 </div>
                                 <div class="col-md-6">
+
                                     <div class="input-data">
-                                        <input type="text" required>
+                                        <input type="text" id="emailAddress" required>
                                         <div class="underline"></div>
                                         <label for="emailAddress">Email Address</label>
+
                                     </div>
+
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="col-md-12">
+
                                     <div class="input-data textarea">
-                                        <textarea rows="8" cols="80" required></textarea>
+                                        <textarea rows="8" cols="80" id="message" required></textarea>
                                         <br />
                                         <div class="underline"></div>
-                                        <label for="message">Message</label>
+                                        <label for="message">Write Your Message</label>
+
                                         <br />
                                     </div>
+
                                 </div>
                             </div>
-                            <div class="form-row">
+                            <div class="row">
                                 <p class="subscribe-text">Subscribe to our Newsletter:</p>
                             </div>
-                            <div class="form-row">
+                            <div class="row">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="radios" id="radios1" value="option1" checked>
                                     <label class="form-check-label" for="radios1">
                                         Yes, I'd love to!
                                     </label>
                                 </div>
+                            </div>
+                            <div class="row">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="radios" id="radios2" value="option2">
                                     <label class="form-check-label" for="radios2">
@@ -251,8 +264,8 @@
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Submit</button>
+                                <button type="button" class="modal-btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="modal-btn btn-primary">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -263,7 +276,7 @@
 
 
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0oLQxdHhnOFjmme9MpSDVzmUz95gaaBM&callback=initMap"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

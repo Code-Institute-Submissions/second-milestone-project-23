@@ -34,6 +34,7 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fafafa;
     font-family: 'Poppins', sans-serif;
+    padding: .5rem 2rem;
 }
 
 .logo {
@@ -111,7 +112,7 @@ header {
 .main-page {
     text-align: center;
     text-transform: uppercase;
-    padding-top: 1rem;
+    padding-top: 3rem;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -166,6 +167,7 @@ header {
     width: 73px;
     bottom: 20px;
     z-index: 99;
+    padding-top: 3rem;
 }
 
 .trips-page {
@@ -190,7 +192,10 @@ header {
 
 .info-text {
     text-align: left;
-    padding: 2rem 3rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
 }
 
 .container {
@@ -200,10 +205,13 @@ header {
     padding: 2rem;
 }
 
+.row .padding {
+    padding: 2rem;
+}
+
 .images {
     float: left;
     width: 415px;
-    padding: 1rem;
 }
 
 .images:hover {
@@ -229,15 +237,23 @@ header {
 /*-------------------------------------Map */
 
 #map-container {
-    height: 360px;
+    height: 290px;
     max-width: 860px;
 }
 
-#map {
-    height: 100%;
-    width: 100%;
-    right: 2rem;
-    left: 2rem;
+.maps {
+    width: 95%;
+    height: 250px;
+    box-shadow: var(--box-shadow);
+    border: 2px solid #b46426;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.map-col {
+    padding: 1.5rem;
+    background: #93bcc8;
 }
 
 /*-------------------------------------Cuba page */
@@ -302,6 +318,7 @@ h1 {
 .accordion {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-left: 1rem;
 }
 
 .btn-itinerary {
@@ -326,6 +343,7 @@ h1 {
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .5rem;
     margin: .5rem 8rem;
+    width: 50%;
 }
 
 .btn-link {
@@ -348,7 +366,7 @@ h1 {
 }
 
 .card-body {
-    background: #e8eeff;
+    background: #93bcc8;
 }
 
 .card-body:hover {
@@ -402,7 +420,7 @@ h1 {
 }
 
 /*-------------------------------------Modal */
-/*CREDIT: The idea of this code was taken from Coding Nepal's tutorial <a href="https://www.youtube.com/watch?v=OQ0hgVVwNOI"></a>
+/*CREDIT: The idea of this code was taken from Coding Nepal's tutorial ("https://www.youtube.com/watch?v=OQ0hgVVwNOI")
 with a few modifications done to suit what I needed*/
 
 .modal-content {
@@ -414,8 +432,10 @@ with a few modifications done to suit what I needed*/
     text-align: center;
     font-size: 35px;
     font-weight: 6;
-    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    background-image: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
     -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -508,6 +528,27 @@ form .form-row .textarea {
     transform: scaleX(1);
 }
 
+.subscribe-text {
+    margin-left: 2.5rem;
+    font-weight: bold;
+}
+
+.form-check {
+    margin-left: 3.5rem;
+    margin-bottom: .5rem;
+}
+
+.modal-btn {
+    display: inline-block;
+    border: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 3px solid #fafafa;
+    padding: 10px 25px;
+    color: #fafafa;
+    border-radius: 10px;
+}
+
 /*-------------------------------------Media queries */
 
 @media (max-width: 768px) {
@@ -595,6 +636,53 @@ form .form-row .textarea {
 
 }
 
+@media (max-width: 320px) {
+    .navbar {
+        padding: .75rem;
+        background-color: #000;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .toggle-button {
+        top: 2.2rem;
+        right: 1rem;
+        width: 26px;
+        height: 18px;
+    }
+
+    .banner-text h2 {
+        font-size: 40px;
+        margin-top: 6rem;
+    }
+}
+
+.images {
+    height: 12rem;
+    width: 285px;
+}
+
+#footer-details {
+    text-align: center;
+}
+
+#footer-details h5 {
+    font-size: 1.5rem;
+    margin-bottom: .75rem;
+}
+
+#footer-details p {
+    margin-bottom: 1.5rem;
+}
+
+.social-links {
+    margin-bottom: 1.5rem;
+}
+}
+
+
 /*-------------------------------------Footer */
 
 footer {
@@ -602,6 +690,10 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+#footer-details {
+    padding: 3rem;
 }
 
 .inline-block a {
@@ -644,10 +736,6 @@ i.fa-youtube:hover {
     background: #c4302b;
 }
 
-#footer-details {
-    padding: 20px;
-}
-
 .form-group {
     margin-bottom: 0.7rem;
 }
@@ -679,7 +767,6 @@ i.fa-youtube:hover {
 .field .icons span {
     height: 25px;
     width: 25px;
-    border: 2px solid;
     border-radius: 50%;
     line-height: 25px;
     display: none;

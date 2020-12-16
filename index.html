@@ -42,7 +42,7 @@
         <div id="mission">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="main-page highlight highlight-underline-blue">Our Mission</h2>
+                    <h2 class="main-page highlight-underline-blue">Our Mission</h2>
                 </div>
             </div>
             <div class="row">
@@ -63,7 +63,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <h2 class="trips-page highlight highlight-underline-white">Mission Trips</h2>
+                    <h2 class="trips-page highlight-underline-white">Mission Trips</h2>
                 </div>
             </div>
             <div class="row">
@@ -71,7 +71,11 @@
                     <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                 </div>
             </div>
-
+            <div id="map-container">
+                <div class="map-col">
+                    <div id="map" class="maps"></div>
+                </div>
+            </div>
             <div class="row">
                 <div class="padding">
                     <div class="col-sm-3 col-md-6 col-lg-3 images">
@@ -185,7 +189,7 @@
                 <div class="modal-body">
                     <div class="modal-container">
                         <div id="error"></div>
-                        <form id="contactform" action="#" method="GET">
+                        <form id="contactform" action="#">
                             <div class="form-row">
                                 <div class="col-md-6">
 
@@ -266,7 +270,7 @@
                             </div>
                         </form>
                         <div class="modal-footer">
-                            <button type="submit" class="modal-btn btn-primary">Submit</button>
+                            <button type="submit" class="modal-btn">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -276,11 +280,10 @@
 
 
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0oLQxdHhnOFjmme9MpSDVzmUz95gaaBM&callback=initMap"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
     <script src="assets/js/script.js"></script>
 </body>
 

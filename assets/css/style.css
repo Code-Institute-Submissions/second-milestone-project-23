@@ -64,7 +64,7 @@ header {
 }
 
 .navbar-links li:hover {
-    background-color: #83939d;
+    background-color: #989758;
 }
 
 /*-------------------------------------Banner */
@@ -82,7 +82,7 @@ header {
 }
 
 .banner-text h2 {
-    color: #fafafa;
+    color: #c6a337;
     font-size: 55px;
     margin: 0;
 }
@@ -107,8 +107,8 @@ header {
     border-radius: 25px;
 }
 
-.btn:hover {
-    background-color: #b46426;
+.banner-text .contact-btn:hover {
+    background-color: #989758;
 }
 
 /*-------------------------------------Mobile view */
@@ -141,20 +141,16 @@ header {
     letter-spacing: 2px;
 }
 
-.highlight {
+.highlight-underline-blue::after {
     content: "";
     width: 8rem;
-    position: absolute;
     margin: 0 auto;
-    height: 5px;
+    position: absolute;
     background: #8f8f8f;
+    height: 5px;
     left: 0;
     right: 0;
     bottom: -10px;
-}
-
-.highlight-underline-blue::after {
-    background: #8f8f8f;
 }
 
 .main-text {
@@ -165,7 +161,7 @@ header {
 /*-------------------------------------Trips section*/
 
 #section-background {
-    background: #dbdbdb;
+    background: #c6a337;
 }
 
 .section-icon {
@@ -187,6 +183,14 @@ header {
 }
 
 .highlight-underline-white::after {
+    content: "";
+    width: 8rem;
+    margin: 0 auto;
+    position: absolute;
+    height: 5px;
+    left: 0;
+    right: 0;
+    bottom: -10px;
     background: #fafafa;
 }
 
@@ -241,7 +245,7 @@ header {
     max-width: 860px;
 }
 
-.maps {
+.map {
     width: 95%;
     height: 250px;
     box-shadow: var(--box-shadow);
@@ -427,7 +431,7 @@ with a few modifications done to suit what I needed*/
     text-align: center;
     font-size: 35px;
     font-weight: 6;
-    background-image: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    background-image: -webkit-linear-gradient(right, #c6a337, #989758, #dbc257, #816729, #5b4d0b);
 }
 
 .modal-header button {
@@ -539,11 +543,12 @@ form .form-row .textarea {
     border: 0;
     font-size: 18px;
     text-transform: uppercase;
-    border: 3px solid #fafafa;
+    border: 3px solid #dbc257;
     padding: 10px 25px;
-    color: #fafafa;
+    color: #5b4d0b;
     border-radius: 10px;
     text-align: center;
+    background-color: #dbc257;
 }
 
 /*-------------------------------------Media queries */
@@ -636,6 +641,7 @@ form .form-row .textarea {
 
     .card {
         margin: .5rem 2rem;
+        width: 18rem;
     }
 
     .btn-link {
@@ -800,7 +806,7 @@ footer {
 }
 
 .inline-block a {
-    color: #fff;
+    color: #dbc257;
 }
 
 .social-links {
@@ -915,7 +921,7 @@ i.fa-youtube:hover {
     border: none;
     outline: none;
     border-radius: 5px;
-    background: #27ae60;
+    background: #dbc257;
     color: #f2f2f2;
     font-size: 18px;
     font-weight: 500;
@@ -926,5 +932,5 @@ i.fa-youtube:hover {
 }
 
 #form button:hover {
-    background: #219150;
+    background: #989758;
 }

@@ -15,8 +15,10 @@
 </head>
 
 <body>
+    <div style="background-image: url('assets/media/cubabg.jpg')"></div>
+
     <nav class="navbar">
-        <div class="logo">Movement</div>
+        <div class="logo"><a href="index.html.vid-bg">Movement</a></div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -34,7 +36,7 @@
         <div class="row">
             <div class="col-12">
                 <h1>
-                    <span class="multicolor-cuba alignment">Cuba</span>
+                    <span class="multicolor cuba alignment">Cuba</span>
                 </h1>
                 <h5 class="length-trip">8 days</h5>
             </div>
@@ -129,11 +131,6 @@
                         <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                             <div class="card-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                            <div id="map-container">
-                                <div class="map-col">
-                                    <div id="map-CU" class="map"></div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -244,70 +241,86 @@
         </div>
 
     </footer>
-    <div class="modal" tabindex="-1" id="contactModal">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Contact Us!</h5>
+                    <h5 class="modal-title multicolor" id="modalLabel">GET IN TOUCH!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-4">
-                                <label for="inputFirstName4">First name</label>
-                                <input type="name" class="form-control" id="inputFirstName4">
+                    <div class="modal-container">
+                        <div id="error"></div>
+                        <form id="contactform" action="#" method="GET">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text" id="firstname" required>
+                                        <div class="underline"></div>
+                                        <label for="firstname">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text" id="lastName" required>
+                                        <div class="underline"></div>
+                                        <label for="lastName">Last Name</label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputLastName4">Last name</label>
-                                <input type="name" class="form-control" id="inputLastName4">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text" id="subject" required>
+                                        <div class="underline"></div>
+                                        <label for="Subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text" id="emailAddress" required>
+                                        <div class="underline"></div>
+                                        <label for="emailAddress">Email Address</label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
+                            <div class="form-row">
+                                <div class="col-md-12">
+                                    <div class="input-data textarea">
+                                        <textarea rows="8" cols="80" id="message" required></textarea>
+                                        <br />
+                                        <div class="underline"></div>
+                                        <label for="message">Write Your Message</label>
+                                        <br />
+                                    </div>
+                                </div>
                             </div>
+                            <div class="row">
+                                <p class="subscribe-text">Subscribe to our Newsletter:</p>
+                            </div>
+                            <div class="row">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radios" id="radios1" value="option1" checked>
+                                    <label class="form-check-label" for="radios1">
+                                        Yes, I'd love to!
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radios" id="radios2" value="option2">
+                                    <label class="form-check-label" for="radios2">
+                                        No thank you
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="modal-footer">
+                            <button type="submit" class="modal-btn btn-primary">Submit</button>
                         </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-8">
-                                <label for="inputEnquiry">Enquiry</label>
-                                <input type="text" class="form-control" id="inputEnquiry">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputCountry">Country</label>
-                                <select id="inputCountry" class="form-control">
-                                    <option selected>None selected</option>
-                                    <option>Cuba</option>
-                                    <option>Russia</option>
-                                    <option>Myanmar</option>
-                                    <option>India</option>
-                                </select>
-                            </div>
-                            <div class="form-row text-area">
-                                <div class="form-group col-12">
-                                    <label for="textarea">Message</label>
-                                    <textarea class="form-control" id="textarea" rows="5"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="formControlRadio1">Subscribe to our newsletter</label>
-                            </div>
-                            <div class="form-group">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1">Yes</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">No</label>
-                                </div>
-                            </div>
-
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>

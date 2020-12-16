@@ -1,60 +1,44 @@
-//Latitude/longitude addresses for Havana, Cuba
-/*
-Havana Cathedral: Coordinates . lat:23.14146918394431, lng:-82.35193049694475
-The Malecón: Coordinates - lat:23.141754, lng:-82.370809
-Old Square: Coordinates - lat:23.1360, lng:82.3500
-Vintage Car Tours: Avenue 43, La Habana, Cuba - lat:23.122025987385317, lng:-82.41340179591334
-San Cristobal Paladar: lat:23.136274114570345, lng:-82.36625930244043
-*/
+//CREDIT: Function by Traversy Media's Google Maps JavaScript API Tutorial ("https://www.youtube.com/watch?v=Zxf1mnP5zcw")
 
-//CREDIT: Function by Traversy Media's Google Maps JavaScript API Tutorial<a href="https://www.youtube.com/watch?v=Zxf1mnP5zcw"></a>
-
-//--- END CREDIT ---
 function initMap() {
 
-    var mapOptionsCU = {
-        zoom: 13,
+    var options = {
+        zoom: 3,
         center: {
-            lat: 23.13159071188936,
-            lng: -82.37934500217703
+            lat: 26.8206,
+            lng: 30.8025
         },
     }
-    var map = new google.maps.Map(document.getElementById('map-CU'), mapOptionsCU);
+
+    var map = new google.maps.Map(document.getElementById('map'), options);
 
     var markers = [{
             coords: {
-                lat: 23.14146918394431,
-                lng: -82.35193049694475
+                lat: 23.1136,
+                lng: -82.3666,
             },
-            content: '<h5>Havana Cathedral</h5>'
+            content: '<h3>Havana, Cuba</h3>'
         },
         {
             coords: {
-                lat: 23.141754,
-                lng: -82.370809
+                lat: 58.0092,
+                lng: 56.2270,
             },
-            content: '<h5>The Malecón</h5>'
+            content: '<h3>Perm, Russia</h3>'
         },
         {
             coords: {
-                lat: 23.1360,
-                lng: 82.3500
+                lat: 16.8409,
+                lng: 96.1735
             },
-            content: '<h5>Old Square</h5>'
+            content: '<h3>Yangon, Myanmar</h3>'
         },
         {
             coords: {
-                lat: 23.122025987385317,
-                lng: -82.41340179591334
+                lat: 22.5726,
+                lng: 88.3639
             },
-            content: '<h5>Havana Vintage Car Tours</h5>'
-        },
-        {
-            coords: {
-                lat: 23.136274114570345,
-                lng: -82.36625930244043
-            },
-            content: '<h5>San Cristóbal Paladar</h5>'
+            content: '<h3>Kolkata, India</h3>'
         }
     ]
 
@@ -77,3 +61,4 @@ function initMap() {
         }
     }
 }
+//--- END CREDIT ---

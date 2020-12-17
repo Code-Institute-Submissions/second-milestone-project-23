@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" style="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
     <nav class="navbar">
-        <div class="logo">Movement</div>
+        <div class="logo"><a href="index.html">Movement</a></div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -24,9 +24,9 @@
         </a>
         <div class="navbar-links">
             <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="#destination/index.html">Mission Trips</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html#mission">About</a></li>
+                <li><a href="index.html#destination">Mission Trips</a></li>
+                <li><a href="#contactModal" data-toggle="modal" data-target="#contactModal">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -34,7 +34,7 @@
         <div class="row">
             <div class="col-12">
                 <h1>
-                    <span class="multicolor-india alignment">India</span>
+                    <span class="multicolor india alignment">India</span>
                 </h1>
                 <h5 class="length-trip">10 days</h5>
             </div>
@@ -204,40 +204,141 @@
             <div class="col-sm-4 col-md-6 col-lg-4">
                 <h5>Get in touch!</h5>
                 <p class="inline-block">
-                    <i class="far fa-envelope"></i> Email: <a href="#">blabla@gmail.com</a>
+                    <i class="far fa-envelope"></i>
+                    Email:
+                    <a href="#contactModal" data-toggle="modal" data-target="#contactModal">blabla@gmail.com</a>
                 </p>
             </div>
             <div class="col-sm-4 col-md-6 col-lg-4">
                 <h5>Follow Us!</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://twitter.com/?lang=en" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://youtube.com" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4">
-                <h5>Subscribe to our newsletter!</h5>
-                <div>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Your email address">
-                        </div>
-                        <button type="submit" class="btn-footer">Subscribe</button>
-                    </form>
+                <div class="content">
+                    <h5>Subscribe to our newsletter!</h5>
+                    <div>
+                        <form id="form" action="#">
+                            <div class="field">
+                                <input onkeyup="check()" type="text" id="email" autocomplete="off" placeholder="Your Email Address">
+                                <div class="icons">
+                                    <span class="icon1 fas fa-exclamation-circle"></span>
+                                    <span class="icon2 fas fa-check-circle"></span>
+                                </div>
+                            </div>
+                            <div class="error-text">Please Enter Valid Email Address</div>
+                            <button onclick="subscribe()" id="textfield" type="submit">Subscribe</button>
+
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-
     </footer>
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title multicolor" id="modalLabel">GET IN TOUCH!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-container">
+                        <div id="error"></div>
+                        <form id="contactform" action="#" method="GET">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text" id="firstname" required>
+                                        <div class="underline"></div>
+                                        <label for="firstname">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text" id="lastName" required>
+                                        <div class="underline"></div>
+                                        <label for="lastName">Last Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text" id="subject" required>
+                                        <div class="underline"></div>
+                                        <label for="Subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text" id="emailAddress" required>
+                                        <div class="underline"></div>
+                                        <label for="emailAddress">Email Address</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-12">
+                                    <div class="input-data textarea">
+                                        <textarea rows="8" cols="80" id="message" required></textarea>
+                                        <br />
+                                        <div class="underline"></div>
+                                        <label for="message">Write Your Message</label>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="subscribe-text">Subscribe to our Newsletter:</p>
+                            </div>
+                            <div class="row">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radios" id="radios1" value="option1" checked>
+                                    <label class="form-check-label" for="radios1">
+                                        Yes, I'd love to!
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radios" id="radios2" value="option2">
+                                    <label class="form-check-label" for="radios2">
+                                        No thank you
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="modal-footer">
+                            <button type="submit" class="modal-btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

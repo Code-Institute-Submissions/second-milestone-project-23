@@ -67,6 +67,10 @@ header {
     background-color: #989758;
 }
 
+.img-bg {
+    display: none;
+}
+
 /*-------------------------------------Banner */
 
 .jumbotron {
@@ -239,6 +243,7 @@ header {
 }
 
 /*-------------------------------------Map */
+
 
 #map-container {
     height: 290px;
@@ -624,6 +629,16 @@ form .form-row .textarea {
         right: 1.8rem;
     }
 
+    .img-bg {
+        display: block;
+        background-image: url("assets/media/mobilepic.jpg");
+        height: 100%;
+    }
+
+    .vid-bg {
+        display: none;
+    }
+
     .banner-text h2 {
         font-size: 50px;
     }
@@ -752,6 +767,25 @@ form .form-row .textarea {
     .images {
         height: 12rem;
         width: 280px;
+    }
+
+    .card {
+        margin: .5rem .5rem;
+        width: 17rem;
+    }
+
+    .p-text {
+        padding: .75rem .5rem;
+    }
+
+    .btn-link:after {
+        width: 25px;
+        font-size: 20px;
+        right: 8px;
+    }
+
+    .carousel-item {
+        height: 9.5rem;
     }
 
     #footer-details {

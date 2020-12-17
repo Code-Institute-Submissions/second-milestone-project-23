@@ -15,7 +15,6 @@
 </head>
 
 <body>
-    <div style="background-image: url('assets/media/cubabg.jpg')"></div>
 
     <nav class="navbar">
         <div class="logo"><a href="index.html.vid-bg">Movement</a></div>
@@ -207,39 +206,56 @@
             <div class="col-sm-4 col-md-6 col-lg-4">
                 <h5>Get in touch!</h5>
                 <p class="inline-block">
-                    <i class="far fa-envelope"></i> Email: <a href="#">blabla@gmail.com</a>
+                    <i class="far fa-envelope"></i>
+                    Email:
+                    <a href="#contactModal" data-toggle="modal" data-target="#contactModal">blabla@gmail.com</a>
                 </p>
             </div>
             <div class="col-sm-4 col-md-6 col-lg-4">
                 <h5>Follow Us!</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://twitter.com/?lang=en" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://youtube.com" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4">
-                <h5>Subscribe to our newsletter!</h5>
-                <div>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Your email address">
-                        </div>
-                        <button type="submit" class="btn-footer">Subscribe</button>
-                    </form>
+                <div class="content">
+                    <h5>Subscribe to our newsletter!</h5>
+                    <div>
+                        <form id="form" action="#">
+                            <div class="field">
+                                <input onkeyup="check()" type="text" id="email" autocomplete="off" placeholder="Your Email Address">
+                                <div class="icons">
+                                    <span class="icon1 fas fa-exclamation-circle"></span>
+                                    <span class="icon2 fas fa-check-circle"></span>
+                                </div>
+                            </div>
+                            <div class="error-text">Please Enter Valid Email Address</div>
+                            <button onclick="subscribe()" id="textfield" type="submit">Subscribe</button>
+
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-
     </footer>
     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">

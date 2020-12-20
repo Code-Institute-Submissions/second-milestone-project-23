@@ -3,10 +3,10 @@
 function initMap() {
 
     var options = {
-        zoom: 3,
+        zoom: 2,
         center: {
-            lat: 26.8206,
-            lng: 30.8025
+            lat: 38.9637,
+            lng: 35.2433
         },
     }
 

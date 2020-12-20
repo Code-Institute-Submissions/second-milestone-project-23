@@ -43,6 +43,12 @@ header {
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 3px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fafafa;
 }
 
 .navbar-links ul {
@@ -64,7 +70,7 @@ header {
 }
 
 .navbar-links li:hover {
-    background-color: #989758;
+    background-color: #c6a337;
 }
 
 .img-bg {
@@ -112,7 +118,7 @@ header {
 }
 
 .banner-text .contact-btn:hover {
-    background-color: #989758;
+    background-color: #c6a337;
 }
 
 /*-------------------------------------Mobile view */
@@ -165,7 +171,7 @@ header {
 /*-------------------------------------Trips section*/
 
 #section-background {
-    background: #c6a337;
+    background: #d8d8d8;
 }
 
 .section-icon {
@@ -244,25 +250,11 @@ header {
 
 /*-------------------------------------Map */
 
-
-#map-container {
-    height: 290px;
-    max-width: 860px;
-}
-
-.map {
-    width: 95%;
-    height: 250px;
-    box-shadow: var(--box-shadow);
-    border: 2px solid #b46426;
-    left: 1rem;
-    right: 1rem;
-    bottom: 1rem;
-}
-
-.map-col {
-    padding: 1.5rem;
-    background: #93bcc8;
+#map {
+    height: 320px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border-color: #c6a337;
 }
 
 /*-------------------------------------Cuba page */
@@ -295,6 +287,17 @@ h1 {
     margin-bottom: 0;
 }
 
+body .bg-image {
+    background-image: url("assets/media/world.jpg") fixed no-repeat center;
+}
+
+.mapbg {
+    background-image: url('assets/media/worldbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+
 /*-------------------------------------Russia page */
 
 .russia {
@@ -317,7 +320,7 @@ h1 {
 
 .accordion {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     margin-left: 1rem;
 }
 
@@ -362,7 +365,7 @@ h1 {
 
 .btn-link:focus {
     text-decoration: none;
-    color: #007bff;
+    color: #146cb4;
 }
 
 .card-body {
@@ -548,12 +551,12 @@ form .form-row .textarea {
     border: 0;
     font-size: 18px;
     text-transform: uppercase;
-    border: 3px solid #dbc257;
+    border: 3px solid #f8d475;
     padding: 10px 25px;
     color: #5b4d0b;
     border-radius: 10px;
     text-align: center;
-    background-color: #dbc257;
+    background-color: #f8d475;
 }
 
 /*-------------------------------------Media queries */
@@ -606,9 +609,10 @@ form .form-row .textarea {
         width: 600px;
     }
 
-    #map-container {
-        height: 360px;
-        max-width: 732px;
+    #map {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
     }
 
 
@@ -707,6 +711,10 @@ form .form-row .textarea {
     .images {
         width: 340px;
         height: 15rem;
+    }
+
+    #map {
+        display: none;
     }
 
     #footer-details {
@@ -840,7 +848,7 @@ footer {
 }
 
 .inline-block a {
-    color: #dbc257;
+    color: #c6a337;
 }
 
 .social-links {
@@ -955,8 +963,8 @@ i.fa-youtube:hover {
     border: none;
     outline: none;
     border-radius: 5px;
-    background: #dbc257;
-    color: #f2f2f2;
+    background: #8f8f8f;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -966,5 +974,5 @@ i.fa-youtube:hover {
 }
 
 #form button:hover {
-    background: #989758;
+    background: #f8d475;
 }

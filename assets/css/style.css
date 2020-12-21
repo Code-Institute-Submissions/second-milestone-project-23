@@ -273,7 +273,7 @@ h1 {
 }
 
 .cuba {
-    background-image: linear-gradient(to left, red, blue, white);
+    background-image: linear-gradient(to left, red, blue);
 }
 
 .length-trip {
@@ -287,15 +287,9 @@ h1 {
     margin-bottom: 0;
 }
 
-body .bg-image {
-    background-image: url("assets/media/world.jpg") fixed no-repeat center;
-}
-
-.mapbg {
-    background-image: url('assets/media/worldbg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom right;
+.bg-image {
+    margin-top: 2.5rem;
+    width: 95%;
 }
 
 /*-------------------------------------Russia page */
@@ -321,7 +315,6 @@ body .bg-image {
 .accordion {
     margin-top: 2rem;
     margin-bottom: 5rem;
-    margin-left: 1rem;
 }
 
 .btn-itinerary {
@@ -345,8 +338,8 @@ body .bg-image {
     box-shadow: 0 2px 20px 0 rgba(110, 130, 208, .18);
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .5rem;
-    margin: .5rem 8rem;
-    width: 50%;
+    margin: .5rem 2rem;
+    width: 95%;
 }
 
 .btn-link {

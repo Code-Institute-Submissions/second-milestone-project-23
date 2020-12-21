@@ -574,6 +574,7 @@ form .form-row .textarea {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        background-color: rgba(0, 0, 0, 0.7);
     }
 
     .navbar-links ul {
@@ -599,6 +600,7 @@ form .form-row .textarea {
 
     .card {
         margin: .5rem 5rem;
+        width: 80%;
     }
 
     .carousel-item {
@@ -615,12 +617,18 @@ form .form-row .textarea {
         margin-bottom: 2rem;
     }
 
+    .bg-image,
+    .asiabg-image {
+        display: none;
+    }
+
 
 }
 
 @media (max-width: 375px) {
     .navbar {
         padding: .75rem;
+        background-color: rgba(0, 0, 0, 0.7);
     }
 
     .logo {
@@ -659,8 +667,8 @@ form .form-row .textarea {
     }
 
     .card {
-        margin: .5rem 2rem;
-        width: 18rem;
+        margin: .5rem 1.5rem;
+        width: 20rem;
     }
 
     .btn-link {
@@ -743,7 +751,7 @@ form .form-row .textarea {
 @media (max-width: 320px) {
     .navbar {
         padding: .75rem;
-        background-color: #000;
+        background-color: rgba(0, 0, 0, 0.7);
     }
 
     .logo {
@@ -779,7 +787,7 @@ form .form-row .textarea {
 
     .card {
         margin: .5rem .5rem;
-        width: 17rem;
+        width: 18rem;
     }
 
     .p-text {
@@ -925,12 +933,6 @@ i.fa-youtube:hover {
 
 .field .icons span.icon1 {
     color: #e74c3c;
-    border-color: #e74c3c;
-}
-
-.field .icons span.icon2 {
-    color: #27ae60;
-    border-color: #27ae60;
 }
 
 #form .error-text {

@@ -144,6 +144,7 @@ header {
 /*-------------------------------------Main page */
 
 .main-page {
+    background-image: linear-gradient(to left, #c6a337, #989758, #dbc257, #816729, #5b4d0b);
     text-align: center;
     text-transform: uppercase;
     padding-top: 3rem;
@@ -156,7 +157,7 @@ header {
     width: 8rem;
     margin: 0 auto;
     position: absolute;
-    background: #8f8f8f;
+    background: #d8d8d8;
     height: 5px;
     left: 0;
     right: 0;
@@ -185,6 +186,7 @@ header {
 }
 
 .trips-page {
+    background-image: linear-gradient(to left, #c6a337, #989758, #dbc257, #816729, #5b4d0b);
     text-align: center;
     text-transform: uppercase;
     padding-top: 1rem;
@@ -308,6 +310,11 @@ h1 {
 
 .india {
     background-image: linear-gradient(to left, orange, green, blue);
+}
+
+.asiabg-image {
+    margin-top: 2.5rem;
+    width: 85%;
 }
 
 /*-------------------------------------Accordion */

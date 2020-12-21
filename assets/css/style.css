@@ -164,9 +164,26 @@ header {
     bottom: -10px;
 }
 
+.top {
+    padding-top: 3rem;
+}
+
 .main-text {
     text-align: center;
-    padding: 3rem 8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.chapter {
+    padding-top: 1rem;
+}
+
+.verse {
+    color: #dbc257;
+}
+
+.last-p {
+    margin-bottom: 3rem;
 }
 
 /*-------------------------------------Trips section*/
@@ -204,14 +221,6 @@ header {
     right: 0;
     bottom: -10px;
     background: #fafafa;
-}
-
-.info-text {
-    text-align: left;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
 }
 
 .container {
@@ -645,6 +654,7 @@ form .form-row .textarea {
         display: block;
         background-image: url("assets/media/mobilepic.jpg");
         height: 100%;
+        width: 375px;
     }
 
     .vid-bg {
@@ -656,8 +666,6 @@ form .form-row .textarea {
     }
 
     .main-text {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }

@@ -131,9 +131,9 @@ up.
     - used when I was stuck and needed some help in developing my project.
 
 11. <a href="https://icolorpalette.com/">iColor Palette</a>
-    - I made use of iColor to find a good color scheme for the website that would suit it's purpose. The palette I chose is found below:
+    - I made use of iColor to find a good color scheme for the website that would suit it's purpose. The palettes I chose to work from can be found below:
 
-    <img src="assets/media/icolorpalette.png">
+    <img src="assets/media/icolorpalette.png"><img src="assets/media/icolorpalette1.png">
 
 12. <a href="https://courses.codeinstitute.net/program/FullstackWebDeveloper">Code Institute Course Content</a> 
     - this was a primary source of learning code.
@@ -164,21 +164,21 @@ up.
 
 - The markers on the map were implemented with the help of Traversy Media <a href="https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=577s">Google Maps JavaScript API Tutorial</a>.
 
-- The "Things to explore" text for cuba.html was taken from different websites such as <a href="https://www.tripadvisor.com/Attractions-g147271-Activities-Havana_Ciudad_de_la_Habana_Province_Cuba.html">Trip Advisor</a>,
-
-- The "Things to explore" text for india.html was taken from different websites such as <a href="https://www.tripadvisor.com/Attractions-g304558-Activities-Kolkata_Calcutta_Kolkata_District_West_Bengal.html">Trip Advisor</a>, <a href="https://www.holidify.com/places/kolkata/eco-tourism-park-sightseeing-121302.html">Holidify</a> and <a href="https://www.fabhotels.com/blog/things-to-do-in-kolkata-in-one-day/">Fab Hotels</a>.
-
 - The accordion on the destination pages were implemented with the help from <a href="https://www.youtube.com/watch?v=t5pJ-SYCZa0">Easy Tutorials</a>.
 
 ### Media
 
 - The background video on the main page was implemented with the help from CodeNewbies <a href="https://www.youtube.com/watch?v=-G37aahAYlM">tutorial</a>.
 
-- The images on the bottom of the main page were found on <a href="https://pixabay.com/">Pixabay</a> and are free for commercial use.
+- The images and video from the different pages were found from <a href="https://pixabay.com/">Pixabay</a> and <a href="https://pexels.com/">Pexels</a> and are free for commercial use.
 
 ### Acknowledgements
 
-At the start of this project I researched mission websites as well as holiday destination websites to gain some inspiration for the layout
+- At the start of this project I researched mission websites as well as holiday destination websites to gain some inspiration for the layout
 I would want as well as what type of content I should implement. Most of my inspiration came from <a href="https://www.cru.org/">CRU</a> 
 and <a href="https://www.exotravel.com/">EXO Travel</a>. 
+
+- I would like to thank my mentor Nishant Kumar for all the help and advice he's given me throughout this project. 
+
+- I would also like to thank my husband for all the support he's given me in taking care of the kids while I have had to code as well as giving me tips and ideas on this project. 
 

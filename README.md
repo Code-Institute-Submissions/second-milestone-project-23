@@ -155,6 +155,17 @@ up.
 1. HTML validator
     - I tested the validation of my HTML with an HTML validator and recieved 1 parse error from one of my links located in the head section. I managed to fix this error by replacing "style" with "type".
 
+### Bugs and solutions
+
+1. The video wasn't showing well on mobile devices so I decided therefore to replace it with an image instead. 
+
+2. When clicking the first button of the accordion the "subscribed" background and text appears. 
+
+<img src="assets/media/bugs/accordion.png">
+
+I managed to fix this by removing the javascript script source from the bottom of the page.
+
+3. When viewing the main page on a mobile device there is some white space on the right hand side. I fixed this by adjusting the margins in media query for mobile view.
 
 ## Deployment
 

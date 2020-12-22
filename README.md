@@ -62,10 +62,8 @@ subscribed.
 ### Wireframes
 These are the wireframes that I used in this project. This was the initial draft, but the outcome of the website have a few differences.
 
-![image](assets/media/wireframes/wire1.png)
+![image](assets/media/wireframes/wire1.png) ![image](assets/media/wireframes/wire2.png) ![image](assets/media/wireframes/wire3.png)
 
-<img src="assets/media/wireframes/wire2.png">
-<img src="assets/media/wireframes/wire3.png">
 
 ## Features
 
@@ -101,72 +99,73 @@ up.
 
 ## Technologies Used
 
-1. <a href="https://balsamiq.com">Balsamiq Wireframes</a>
+1. [Balsamiq Wireframes](https://balsamiq.com)
     - used at the beginning of the project to develop the right UX design desired for mobile, iPad and desktop resolutions.
 
-2. <a href="https://html.com/">HTML</a>
+2. [HTML](https://html.com/)
     - used to modify and add structure from bootstrap.
 
-3. <a href="https://www.w3.org/Style/CSS/">CSS</a>
+3. [CSS](https://www.w3.org/Style/CSS/)
     - used to style the website according to its purpose.
 
-4. <a href="https://getbootstrap.com/">Bootstrap v.4.5.2</a>
+4. [Bootstrap v.4.5.2](https://getbootstrap.com/)
     - used to build the main frame and structure for all pages with a mobile first approach and desktop view.
 
-5. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+5. [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
     - used to add the command codes for contact form and subscription service, as well as the map feature. 
 
-6. <a href="https://cloud.google.com/maps-platform">Google Maps Platform</a>
+6. [Google Maps Platform](https://cloud.google.com/maps-platform)
     - used to get API for the map feature, allowing it to be interactive with the user. 
 
-7. <a href="https://fontawesome.com/">Fontawesome</a>
+7. [Fontawesome](https://fontawesome.com/)
     - used for all the icons.
 
-8. <a href="https://fonts.google.com/">Googlefonts</a>
+8. [Googlefonts](https://fonts.google.com/)
     - used for the fonts of all pages.
 
-9. <a href="https://github.com/">GitHub</a>
+9. [GitHub](https://github.com/)
     - I uploaded my projects on a regular basis on github and also used it as a source of information and tool to learn even how to write this ReadMe.
 
-10. <a href="https://google.com">Google</a> and <a href="https://youtube.com">Youtube</a> 
+10. [Google](https://google.com) and [Youtube](https://youtube.com)
     - used when I was stuck and needed some help in developing my project.
 
-11. <a href="https://icolorpalette.com/">iColor Palette</a>
+11. [iColor Palette](https://icolorpalette.com/)
     - I made use of iColor to find a good color scheme for the website that would suit it's purpose. The palettes I chose to work from can be found below:
 
-    <img src="assets/media/icolorpalette.png"><img src="assets/media/icolorpalette1.png">
+    ![images](assets/media/icolorpalette.png)
 
-12. <a href="https://courses.codeinstitute.net/program/FullstackWebDeveloper">Code Institute Course Content</a> 
+12. [Code Institute Course Content](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
     - this was a primary source of learning code.
 
-13. <a href="https://developers.google.com/web/tools/chrome-devtools">ChromeDevTools</a>  
+13. [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) 
     - used frequently to detect any issues/bugs or layout differences.
 
-14. <a href="https://stackoverflow.com/">StackOverFlow</a>  
+14. [StackOverflow](https://stackoverflow.com/)
     - used as a general resource for layout tips or questions.
 
-15. <a href="http://ami.responsivedesign.is/">AmIResponsive</a>  
+15. [AmIResponsive](http://ami.responsivedesign.is/) 
      - used to check how the layout of the website looks across different devices- found at the top of this README.
 
 
 ## Testing
 
-
-
-1. HTML validator
+1. [HTMLvalidator](https://validator.w3.org/)
     - I tested the validation of my HTML with an HTML validator and recieved 1 parse error from one of my links located in the head section. I managed to fix this error by replacing "style" with "type".
+
+2. [CSSvalidator](https://jigsaw.w3.org/css-validator/)
+    - 
 
 ### Bugs and solutions
 
 1. The video wasn't showing well on mobile devices so I decided therefore to replace it with an image instead. 
 
-2. When clicking the first button of the accordion the "subscribed" background and text appears. 
+2. When clicking the first button of the accordion the "subscribed" background and text appeared on three of the destination pages. 
 
-<img src="assets/media/bugs/accordion.png">
+    ![images](assets/media/bugs/accordion.png)
 
-I managed to fix this by removing the javascript script source from the bottom of the page.
+    I managed to fix this by removing the javascript script source from the bottom of the page.
 
-3. When viewing the main page on a mobile device there is some white space on the right hand side. I fixed this by adjusting the margins in media query for mobile view.
+3. When viewing the main page on a mobile device there was some white space on the right hand side. I fixed this by adjusting the margins in media query for mobile view.
 
 ## Deployment
 
@@ -174,21 +173,23 @@ I managed to fix this by removing the javascript script source from the bottom o
 
 ### Content
 
-- The markers on the map were implemented with the help of Traversy Media <a href="https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=577s">Google Maps JavaScript API Tutorial</a>.
+- The markers on the map were implemented with the help of Traversy Media [Google Maps JavaScript API Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=577s).
 
-- The accordion on the destination pages were implemented with the help from <a href="https://www.youtube.com/watch?v=t5pJ-SYCZa0">Easy Tutorials</a>.
+- The accordion on the destination pages were implemented with the help from [Easy Tutorials](https://www.youtube.com/watch?v=t5pJ-SYCZa0).
 
 ### Media
 
-- The background video on the main page was implemented with the help from CodeNewbies <a href="https://www.youtube.com/watch?v=-G37aahAYlM">tutorial</a>.
+- The bible verses were taken from 
 
-- The images and video from the different pages were found from <a href="https://pixabay.com/">Pixabay</a> and <a href="https://pexels.com/">Pexels</a> and are free for commercial use.
+- The background video on the main page was implemented with the help from [CodeNewbies](https://www.youtube.com/watch?v=-G37aahAYlM).
+
+- The images and video from the different pages were found from [Pixabay](https://pixabay.com/) and [Pexels](https://pexels.com/) and are free for commercial use.
 
 ### Acknowledgements
 
 - At the start of this project I researched mission websites as well as holiday destination websites to gain some inspiration for the layout
-I would want as well as what type of content I should implement. Most of my inspiration came from <a href="https://www.cru.org/">CRU</a> 
-and <a href="https://www.exotravel.com/">EXO Travel</a>. 
+I would want as well as what type of content I should implement. Most of my inspiration came from [CRU](https://www.cru.org/)
+and [EXOTravel](https://www.exotravel.com/).
 
 - I would like to thank my mentor Nishant Kumar for all the help and advice he's given me throughout this project. 
 

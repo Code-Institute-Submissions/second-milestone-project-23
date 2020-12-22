@@ -62,7 +62,8 @@ subscribed.
 ### Wireframes
 These are the wireframes that I used in this project. This was the initial draft, but the outcome of the website have a few differences.
 
-<img src="assets/media/wireframes/wire1.png">
+![image](assets/media/wireframes/wire1.png)
+
 <img src="assets/media/wireframes/wire2.png">
 <img src="assets/media/wireframes/wire3.png">
 

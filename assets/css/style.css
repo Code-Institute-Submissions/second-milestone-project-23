@@ -315,15 +315,20 @@ h1 {
     background-image: linear-gradient(to left, yellow, green, red);
 }
 
+.asiabg-image {
+    margin-top: 2.5rem;
+    width: 85%;
+}
+
 /*-------------------------------------India page */
 
 .india {
     background-image: linear-gradient(to left, orange, green, blue);
 }
 
-.asiabg-image {
-    margin-top: 2.5rem;
-    width: 85%;
+.indiabg-image {
+    margin-top: 4.5rem;
+    width: 95%;
 }
 
 /*-------------------------------------Accordion */
@@ -416,7 +421,7 @@ h1 {
 /*-------------------------------------Carousel */
 
 .carousel-item {
-    height: 32rem;
+    height: 38rem;
     background: #777;
     position: relative;
 }

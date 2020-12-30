@@ -166,6 +166,7 @@ up.
 
     I managed to fix 2 of the errors by changing the font-weight to bold and the font-size to 2rem. The third error I managed to fix by changing the background-clip value to initial instead of text.
 
+4. I tested the website on different browsers such as Mozilla Firefox and Internet Explorer. There were no issues on either browser. 
 
 ### Bugs and solutions
 
@@ -180,6 +181,14 @@ up.
 3. When viewing the main page on a mobile device there was some white space on the right hand side. I fixed this by adjusting the margins in media query for mobile view. It seems however that I have a white area for scrolling which I didn't manage to remove completely.
 
 ## Deployment
+
+- To view the deployed version of [MOVEMENT]() I needed to do the following steps.
+    1. Log in to GitHub and locate the GitHub Repository.   
+    2. Select jesshperez/second-milestone-project from the list of repositories.
+    3. Select settings and scroll down until you locate the "GitHub Pages" Section.
+    4. Under "Source", click the dropdown called "None" and select "Master Branch".
+    5. The page refreshes automatically and is ready for deployment.
+
 
 ## Credits
 

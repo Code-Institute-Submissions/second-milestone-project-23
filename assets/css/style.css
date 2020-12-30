@@ -31,7 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     color: #fafafa;
     font-family: 'Poppins', sans-serif;
     padding: .5rem 2rem;
@@ -278,7 +278,7 @@ h1 {
 }
 
 .multicolor {
-    background-clip: initial;
+    background-clip: inherit;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     color: transparent;

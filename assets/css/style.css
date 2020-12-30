@@ -457,8 +457,12 @@ with a few modifications done to suit what I needed*/
     background-image: -webkit-linear-gradient(right, #c6a337, #989758, #dbc257, #816729, #5b4d0b);
 }
 
+.modal-header {
+    padding: 1rem 2.4rem;
+}
+
 .modal-header button {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .modal-content form .form-row {
@@ -561,17 +565,8 @@ form .form-row .textarea {
     text-align: center;
 }
 
-.modal-footer button {
-    display: inline-block;
-    border: 0;
-    font-size: 18px;
+input.btn.btn-warning {
     text-transform: uppercase;
-    border: 3px solid #f8d475;
-    padding: 10px 25px;
-    color: #5b4d0b;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #f8d475;
 }
 
 /*-------------------------------------Media queries */

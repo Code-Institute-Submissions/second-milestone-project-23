@@ -187,7 +187,7 @@ up.
 
 ## Deployment
 
-- To view the deployed version of [MOVEMENT]() I needed to do the following steps.
+- To view the deployed version of [MOVEMENT](https://jesshperez.github.io/second-milestone-project/) I needed to do the following steps.
     1. Log in to GitHub and locate the GitHub Repository.   
     2. Select jesshperez/second-milestone-project from the list of repositories.
     3. Select settings and scroll down until you locate the "GitHub Pages" Section.

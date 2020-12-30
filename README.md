@@ -164,7 +164,7 @@ up.
 
     ![images](assets/media/bugs/css-error.png)
 
-    I managed to fix 2 of the errors by changing the font-weight to bold and the font-size to 2rem. The third error I managed to fix by changing the background-clip value to initial instead of text.
+    I managed to fix 2 of the errors by changing the font-weight to bold and the font-size to 3rem. The third error I managed to fix by changing the background-clip value to inherit instead of text.
 
 4. I tested the website on different browsers such as Mozilla Firefox and Internet Explorer. There were no issues on either browser. 
 
@@ -179,6 +179,8 @@ up.
     I managed to fix this by removing the javascript script source from the bottom of the page.
 
 3. When viewing the main page on a mobile device there was some white space on the right hand side. I fixed this by adjusting the margins in media query for mobile view. It seems however that I have a white area for scrolling which I didn't manage to remove completely.
+
+4. In the contact pop up modal, the submit button wasn't working. The required field texts weren't showing and nothing happened when submit was clicked. I fixed this issue by changing <button type="button"></button> to <input type="submit"> instead and placing it within the form section.
 
 ## Deployment
 

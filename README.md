@@ -166,7 +166,10 @@ up.
 
     I managed to fix 2 of the errors by changing the font-weight to bold and the font-size to 3rem. The third error I managed to fix by changing the background-clip value to inherit instead of text.
 
-4. I tested the website on different browsers such as Mozilla Firefox and Internet Explorer. There were no issues on either browser. 
+4. I tested the website on different browsers such as Mozilla Firefox, Brave and Safari. 
+    - Mozilla Firefox: everything worked well, there were no issues on desktop, ipad or mobile view.
+    - Brave: the submit button on the pop up modal wouldn't display the submit value. I managed to fix this by switching position with the class attribute. There were also some small padding issues that needed to be adjusted.
+    - Safari: the layout seems to work well on desktop mode, apart from the video not wanting to display. The ipad view is good but has the same issue with video background not showing. I wan't able to fix these issues unfortunately. The mobile view looked good on an iPhone 8 and iPhone SE size but not very good on the plus version.     
 
 ### Bugs and solutions
 

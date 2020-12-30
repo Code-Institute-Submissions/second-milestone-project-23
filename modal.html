@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">
+        Launch demo modal
+    </button>
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">GET IN TOUCH!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text" class="form-control">
+                                        <div class="underline"></div>
+                                        <label for="firstName">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text">
+                                        <div class="underline"></div>
+                                        <label for="lastName">Last Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text">
+                                        <div class="underline"></div>
+                                        <label for="enquiry">Enquiry</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-data">
+                                        <input type="text">
+                                        <div class="underline"></div>
+                                        <label for="emailAddress">Email Address</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="input-data textarea">
+                                        <textarea rows="8" cols="80"></textarea>
+                                        <br />
+                                        <div class="underline"></div>
+                                        <label for="message">Message</label>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="subscribe-text">Subscribe to our Newsletter:</p>
+                            </div>
+                            <div class="row">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radios" id="radios1" value="option1" checked>
+                                    <label class="form-check-label" for="radios1">
+                                        Yes, I'd love to!
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radios" id="radios2" value="option2">
+                                    <label class="form-check-label" for="radios2">
+                                        No thank you
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0oLQxdHhnOFjmme9MpSDVzmUz95gaaBM&callback=initMap"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

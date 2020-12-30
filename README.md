@@ -97,6 +97,8 @@ up.
 
 - Features left to implement are maps to the destination pages with markers to show some of the things to do in free time. 
 
+- Another feature I'd like to include is a donate pop-up modal.
+
 ## Technologies Used
 
 1. [Balsamiq Wireframes](https://balsamiq.com)
@@ -144,20 +146,30 @@ up.
     - used as a general resource for layout tips or questions.
 
 15. [AmIResponsive](http://ami.responsivedesign.is/) 
-     - used to check how the layout of the website looks across different devices- found at the top of this README.
+    - used to check how the layout of the website looks across different devices- found in the Testing section of this README.
 
 
 ## Testing
 
-1. [HTMLvalidator](https://validator.w3.org/)
+1. [AmIResponsive](http://ami.responsivedesign.is/)
+    - I used this website to check if my website was responsive. The layout looked correct on the diferrent devices, however for some reason the video would not show on any of the devices, even though it works when on the actual website. This in turn is messing up the text color making it very difficult to read. See below:
+
+    ![images](assets/media/bugs/responsive.png) 
+
+2. [HTMLvalidator](https://validator.w3.org/)
     - I tested the validation of my HTML with an HTML validator and recieved 1 parse error from one of my links located in the head section. I managed to fix this error by replacing "style" with "type".
 
-2. [CSSvalidator](https://jigsaw.w3.org/css-validator/)
-    - 
+3. [CSSvalidator](https://jigsaw.w3.org/css-validator/)
+    - I tested the validation of my CSS with a CSS validator and recieved 3 errors as pictured below.
+
+    ![images](assets/media/bugs/css-error.png)
+
+    I managed to fix 2 of the errors by changing the font-weight to bold and the font-size to 2rem. The third error I managed to fix by changing the background-clip value to initial instead of text.
+
 
 ### Bugs and solutions
 
-1. The video wasn't showing well on mobile devices so I decided therefore to replace it with an image instead. 
+1. The video wasn't showing well on mobile and ipad devices so I replaced it with an image background instead. 
 
 2. When clicking the first button of the accordion the "subscribed" background and text appeared on three of the destination pages. 
 
@@ -165,7 +177,7 @@ up.
 
     I managed to fix this by removing the javascript script source from the bottom of the page.
 
-3. When viewing the main page on a mobile device there was some white space on the right hand side. I fixed this by adjusting the margins in media query for mobile view.
+3. When viewing the main page on a mobile device there was some white space on the right hand side. I fixed this by adjusting the margins in media query for mobile view. It seems however that I have a white area for scrolling which I didn't manage to remove completely.
 
 ## Deployment
 
@@ -173,17 +185,21 @@ up.
 
 ### Content
 
+- All the text content are my own.
+
+- The bible verses were taken from [BibleStudyTools](https://www.biblestudytools.com/bible-study/).
+
 - The markers on the map were implemented with the help of Traversy Media [Google Maps JavaScript API Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=577s).
 
 - The accordion on the destination pages were implemented with the help from [Easy Tutorials](https://www.youtube.com/watch?v=t5pJ-SYCZa0).
 
 ### Media
 
-- The bible verses were taken from 
-
 - The background video on the main page was implemented with the help from [CodeNewbies](https://www.youtube.com/watch?v=-G37aahAYlM).
 
-- The images and video from the different pages were found from [Pixabay](https://pixabay.com/) and [Pexels](https://pexels.com/) and are free for commercial use.
+- The images from the carousel in cuba.html were my own. 
+
+- The images and video from the remaining pages were found from [Pixabay](https://pixabay.com/) and [Pexels](https://pexels.com/) and are free for commercial use.
 
 ### Acknowledgements
 
